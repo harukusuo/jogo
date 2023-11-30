@@ -27,10 +27,10 @@ function cellClick(index) {
     cell.style.color = currentPlayer === 'X' ? '#ffee4a' : '#31d5de';
 
     if (checkWinner()) {
-      message.textContent = `${getCurrentPlayerName()} venceu!`;
+      message.textContent = `Boa jogada! ${getCurrentPlayerName()} é o ganhador da partida!`;
       gameOver = true;
     } else if (isBoardFull()) {
-      message.textContent = 'Empate! Jogue novamente.';
+      message.textContent = 'Houve um empate! Jogue novamente.';
       gameOver = true;
     } else {
       currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
