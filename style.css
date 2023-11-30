@@ -106,3 +106,14 @@ button:hover {
 label {
   color: #ffffff;
 }
+
+a{
+  text-decoration: none;
+  color: #ffee4a;
+}
+
+.bemvindo{
+  color: #f3b578;
+  font-size: xx-large;
+  text-align: center;
+}
