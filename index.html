@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Velha</title>
+</head>
+<body>
+
+  <header>
+    <h1>Jogo da Velha</h1>
+  </header>
+
+  <div class="container">
+    <div class="players">
+      <label for="playerX">Jogador X: </label>
+      <input type="text" id="playerX" placeholder="Nome do Jogador X">
+      <br>
+      <label for="playerO">Jogador O: </label>
+      <input type="text" id="playerO" placeholder="Nome do Jogador O">
+    </div>
+    <div class="board" id="board">
+      <!--tabuleiro -->
+    </div>
+    <div class="message" id="message"></div>
+    <button onclick="resetGame()">Jogar Novamente</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Jogo da Velha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
